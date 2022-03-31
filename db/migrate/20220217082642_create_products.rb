@@ -1,8 +1,8 @@
-class CreateProducts < ActiveRecord::Migration[7.0]
+class CreateProducts < ActiveRecord::Migration[6.1]
   def change
     create_table :products do |t|
       t.string :name
-      t.string :price
+      t.decimal :price, precision: 10, scale: 2
       t.string :description
       t.references :category, foreign_key: true
     end

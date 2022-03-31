@@ -103,3 +103,16 @@ Ajoutez les tables, les modèles et les associations.
 ## Exigence 9
 
 Le système envoie un mail lorsque le nombre de pièces de chaque produit en stock arrive en dessous de 5 pièces.
+
+## Exigence 10
+
+Afficher la commande la plus cher
+## Exigence 11
+
+Afficher les catégories qui n'ont jamais été commandées
+## Exigence 12
+
+Supprimer les clients n'ayant fait aucune commande
+## Exigence 13
+
+Déterminer s'il y a des commandes ou non entre deux dates données
